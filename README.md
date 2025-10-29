@@ -213,7 +213,3 @@ The entire pipeline (both notebooks) can be executed within **6 hours 30 minutes
 *   Add test-time augmentation (TTA) ensemble.
 *   Export results as GeoJSON FeatureCollection for GIS integration.
 *   Integrate federated training loop for cross-region learning.
-
-## Summary
-
-This project provides a fully documented, production-ready pipeline for land parcel detection and OCR-based metadata extraction. The dual-notebook workflow executes efficiently on Colab GPUs, leverages provided datasets, and delivers reproducible outputs for rapid submission and integration into host environments.
