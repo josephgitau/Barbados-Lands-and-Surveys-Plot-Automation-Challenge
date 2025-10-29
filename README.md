@@ -6,7 +6,7 @@ The Barbados Land Detection and OCR Project focuses on detecting cadastral land 
 
 The choice of the OCR model was intentional — rather than fine-tuning a smaller model on noisy text data, we leverage the strong zero-shot and few-shot generalization capabilities of a large, instruction-tuned model. Supervised Fine-Tuning (SFT) often causes models to memorize patterns in the training data, which can amplify dataset biases or label noise. Since our OCR dataset contained heterogeneous and imperfect annotations, additional fine-tuning risked overfitting to noise rather than improving accuracy. By using a large, pretrained vision-language model that already performs robustly in noisy environments, we avoided the drawbacks of SFT memorization. In essence, if a foundation model already demonstrates high-quality inference performance on the target domain, fine-tuning becomes unnecessary — and may even degrade generalization.
 
-Below notebook summarizes the preliminary data checks with all issues identified: *Step 1: Barbados Train Data Preparation.ipynb*
+Below notebook summarizes the preliminary data checks with all issues identified: [*Step 1: Barbados Train Data Preparation.ipynb*](https://colab.research.google.com/drive/14nPASQP6cgCVI7arl8D_sQPInCbogRgd?usp=sharing)
 
 ### Key Objectives
 
